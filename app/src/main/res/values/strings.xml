@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HayatWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="musteriyim">Müşteriyim</string>
+    <string name="musteri_olmak_istiyorum">Müşteri Olmak İstiyorum</string>
+    <string name="hayat_finans_a">Hayat Finans\'a</string>
+    <string name="hosgeldiniz">Hoşgeldiniz!</string>
+    <string name="hayat_finans_musterisi_olabilirsiniz">X Dakikada birbirimizi tanıyıp Hayat Finans\n dünyasının müşterisi olabilirsiniz.</string>
+    <string name="musterino_tckn">Müşteri No / TCKN</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum / Anında Şifre</string>
+    <string name="sim_bloke_kaldir">SIM Bloke Kaldır</string>
+    <string name="veya">Veya</string>
+    <string name="musteri_ol">Müşteri Ol</string>
+</resources>

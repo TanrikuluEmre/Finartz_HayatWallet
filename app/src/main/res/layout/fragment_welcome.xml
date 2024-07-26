@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scenes.WelcomeFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="271dp"
+            android:layout_height="318dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/restOfWelcomeImage"
+            android:layout_width="141dp"
+            android:layout_height="318dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/restoflogo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="318dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texthayatfinans"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="33dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/hayat_finans_a"
+            android:textColor="@color/black"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="25dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/hosgeldiniz"
+            android:textSize="27sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textXDakikada"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/hayat_finans_musterisi_olabilirsiniz"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="498dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="360dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/wantToCustomerButton"
+            android:background="@drawable/welcome_button"
+            android:text="@string/musteri_olmak_istiyorum"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="360dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/alreadyCustomerButton"
+            android:background="@drawable/alreadycustomer_button"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/musteriyim"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

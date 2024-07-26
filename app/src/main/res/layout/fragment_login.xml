@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scenes.LoginFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo_shadow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="48dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo1" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text"
+            android:fontFamily="sans-serif"
+            android:hint="@string/musterino_tckn"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/sifre"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/welcome_button"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/giris_yap"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/sifremi_unuttum"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:textColor="@color/greenText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sim_bloke_kaldir"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:textColor="@color/greenText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="144dp"
+            android:text="@string/veya"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:textColor="@color/veyaColor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/beCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/becustomer_button"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/musteri_ol"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</FrameLayout>
