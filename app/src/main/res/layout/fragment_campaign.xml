@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scenes.CampaignFragment"
+    android:background="@drawable/blueandgreen2"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:textAlignment="center"
+        android:text="KAMPANYALAR"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-black"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/background_square"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+</FrameLayout>

@@ -27,38 +27,51 @@
             android:layout_height="wrap_content"
             android:background="@drawable/logo1" />
 
-        <EditText
-            android:id="@+id/musteriNo"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:background="@drawable/edit_text"
+            android:src="@drawable/baseline_person_24"
+            android:background="@drawable/oval_background"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Hoşgeldiniz"
+            android:textSize="12sp"
             android:fontFamily="sans-serif"
-            android:hint="@string/musterino_tckn"
-            android:textColorHint="@color/black" />
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Muhammed Emre Tanrıkulu"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/edit_text"
             android:ems="10"
             android:fontFamily="sans-serif"
             android:hint="@string/sifre"
             android:inputType="textPassword"
-            android:textColorHint="@color/black" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/loginButton"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/welcome_button"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/giris_yap"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:textColorHint="@color/black"
+            android:maxLength="12"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -78,26 +91,7 @@
             android:fontFamily="sans-serif-medium"
             android:textAlignment="center"
             android:textColor="@color/greenText" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="24dp"
-            android:layout_marginTop="124dp"
-            android:text="@string/veya"
-            android:textSize="14sp"
-            android:fontFamily="sans-serif-medium"
-            android:textAlignment="center"
-            android:textColor="@color/veyaColor" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/beCustomer"
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/becustomer_button"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/musteri_ol"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
     </LinearLayout>
 
 </FrameLayout>

@@ -3,6 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#FFC4C4C4</color>
+    <color name="lightgrey">#EBEBEB</color>
+    <color name="backgroundGrey">#AFAFAF</color>
     <color name="veyaColor">#E4C4C4C4</color>
     <color name="greenText">#479e65</color>
     <color name="beCustomerColor">#2b408a</color>

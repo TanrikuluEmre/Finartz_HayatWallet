@@ -16,5 +16,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // Cüzdan kısmını yap, ücret, para gönder vb butonları olacak aşağısında kartlar ve bilgileri yer alıcak
+        // cüzdan kısmının aşağısında nav bar olacak en solda home butonu, ortada kampanyalar sayfası, sağda ise kullanıcı bilgileri yer alıcak
+        // kampanyalar kısmı ve home recyclerview ile yapılacak
+
+
     }
 }
