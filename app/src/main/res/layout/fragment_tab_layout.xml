@@ -9,12 +9,12 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginBottom="24dp"
         android:id="@+id/tableLayout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:stretchColumns="0,1,2"
+        android:layout_marginBottom="30dp"
         >
 
         <TableRow
@@ -62,9 +62,9 @@
     </TableLayout>
 
     <androidx.viewpager2.widget.ViewPager2
-        android:layout_width="409dp"
-        android:layout_height="659dp"
         android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

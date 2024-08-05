@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TransactionSumAttrs">
+        <attr format="string" name="company"/>
+        <attr format="string" name="price"/>
+        <attr format="string" name="hours"/>
+    </declare-styleable>
+</resources>

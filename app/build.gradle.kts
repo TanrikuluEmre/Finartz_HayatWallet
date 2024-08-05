@@ -74,4 +74,7 @@ dependencies {
     implementation ("com.squareup.retrofit2:adapter-rxjava2:2.3.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.3.0")
     implementation ("io.reactivex.rxjava2:rxandroid:2.0.1")
+    implementation ("org.jsoup:jsoup:1.18.1")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    implementation ("com.google.android.material:material:1.7.0")
 }

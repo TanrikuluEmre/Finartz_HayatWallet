@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.hayatwallet.Network.Response.CampaignData
 import com.example.hayatwallet.R
 import com.example.hayatwallet.databinding.FragmentTabLayoutBinding
 
@@ -58,6 +59,7 @@ class TabLayoutFragment : Fragment() {
         binding.campaingTxt.background = resources.getDrawable(R.color.backgroundGrey,resources.newTheme())
         binding.personTxt.background = resources.getDrawable(R.color.backgroundGrey,resources.newTheme())
     }
+
     companion object {
 
         @JvmStatic

@@ -11,7 +11,7 @@
         android:id="@+id/title"
         android:textSize="14sp"
         android:fontFamily="sans-serif"
-        android:textColor="@color/grey"
+        android:textColor="@color/darkgrey"
         android:text="TEXT1"
         />
     <TextView

@@ -58,21 +58,21 @@ class WelcomeFragment : Fragment() {
         var text2 = "X Dakikada birbirimizi tanıyıp Hayat Finans\ndünyasının müşterisi olabilirsiniz."
         welcomeVM.bold(0,"X Dakikada".length,text2,textXDakikada)
 
-//                                          SHARED PREFERENCES
-//
-//        alreadyCustomerButton.setOnClickListener{
-//            Log.d("TAG", "onViewCreated: ${NameSharedPreference.getUsername()}")
-//            if(NameSharedPreference.getUsername() == "" || NameSharedPreference.getUsername() == null){
-//                findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToLoginFragment())
-//            }else{
-//                findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToAlreadyLoggedFragment())
-//            }
-//
-//        }
+
 
         alreadyCustomerButton.setOnClickListener{
-            findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToLoginFragment())
+            Log.d("TAG", "onViewCreated: ${NameSharedPreference.getUsername()}")
+            if(NameSharedPreference.getUsername() == "" || NameSharedPreference.getUsername() == null){
+                findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToLoginFragment())
+            }else{
+                findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToAlreadyLoggedFragment())
+            }
+
         }
+
+//        alreadyCustomerButton.setOnClickListener{
+//            findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToLoginFragment())
+//        }
 
     }
 

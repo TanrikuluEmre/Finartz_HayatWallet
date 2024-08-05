@@ -15,6 +15,7 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.example.hayatwallet.NameSharedPreference
 import com.example.hayatwallet.R
+import com.example.hayatwallet.TokenId
 import com.example.hayatwallet.databinding.FragmentAlreadyLoggedBinding
 import com.example.hayatwallet.databinding.FragmentLoginBinding
 
@@ -67,6 +68,7 @@ class AlreadyLoggedFragment : Fragment() {
     private fun handleResponse(){
         loginVM.isLogged.observe(viewLifecycleOwner, Observer { item ->
             if(item?.isSuccess == true){
+                TokenId.token = item.token
                 findNavController().navigate(AlreadyLoggedFragmentDirections.actionAlreadyLoggedFragmentToTabLayoutFragment())
             }else{
                 passwordEditText.setText("")

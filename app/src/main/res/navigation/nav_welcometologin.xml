@@ -102,5 +102,29 @@
         <action
             android:id="@+id/action_tabLayoutFragment_to_alreadyLoggedFragment2"
             app:destination="@id/alreadyLoggedFragment" />
+        <action
+            android:id="@+id/action_tabLayoutFragment_to_campaignDetay"
+            app:destination="@id/campaignDetay" />
+        <action
+            android:id="@+id/action_tabLayoutFragment_to_walletTransaction"
+            app:destination="@id/walletTransaction" />
+    </fragment>
+    <fragment
+        android:id="@+id/campaignDetay"
+        android:name="com.example.hayatwallet.scenes.CampaignDetay"
+        android:label="fragment_campaign_detay"
+        tools:layout="@layout/fragment_campaign_detay" >
+        <action
+            android:id="@+id/action_campaignDetay_to_tabLayoutFragment"
+            app:destination="@id/tabLayoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/walletTransaction"
+        android:name="com.example.hayatwallet.scenes.WalletTransaction"
+        android:label="fragment_wallet_transaction"
+        tools:layout="@layout/fragment_wallet_transaction" >
+        <action
+            android:id="@+id/action_walletTransaction_to_tabLayoutFragment"
+            app:destination="@id/tabLayoutFragment" />
     </fragment>
 </navigation>
